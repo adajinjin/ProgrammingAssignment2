@@ -9,6 +9,10 @@
 ## 4. get the mean of the matrix
 
 ## Write a short comment describing this function
+## This is a function mirrored the function of makeVector. Instead of getting the mean of a vector,
+## this function was able to get the inverse of a matrix. However, the inner principle keeps
+## the same, which is obtaining the inverse of the matrix only if it is checked that the inverse 
+## doesn't exist already.
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
